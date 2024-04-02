@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-family: 'SUITE-Regular';
+    background-color: rgb(137, 180, 255);
+}
+p{
+    color: aliceblue;
+}
+div{
+    color: darkblue;
+}
+h1{
+    color: darkblue;
+    width : 200px;
+    height: 100px;
+    
+}
+h3{
+    color: aliceblue;
+    width : 400px;
+    height: 100px;
+}
+
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
